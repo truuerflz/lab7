@@ -20,9 +20,9 @@ int main() {
 	setlocale(LC_ALL, "rus");
 
 	int number = 0;
-	cout << "ââåäèòå ÷èñëî:\n";
+	cout << "Ğ²Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾:\n";
 	cin >> number;
-	cout << "äàííîå ÷èñëî ğèìñêèìè öèôğàìè: " << roman_numerals(number);
+	cout << "Ğ´Ğ°Ğ½Ğ½Ğ¾Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾ Ñ€Ğ¸Ğ¼ÑĞºĞ¸Ğ¼Ğ¸ Ñ†Ğ¸Ñ„Ñ€Ğ°Ğ¼Ğ¸: " << roman_numerals(number);
 
 	return 0;
 }
