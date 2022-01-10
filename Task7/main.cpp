@@ -3,7 +3,7 @@
 using namespace std;
 
 int input() {
-	cout << "ââåäèòå ÷èñëî: ";
+	cout << "Ð²Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: ";
 	int num;
 	while (!(cin >> num)) {
 		cin.clear();
@@ -28,9 +28,9 @@ void divide(int num, int div)
 			div += pl;
 		}
 	}
-	cout << "÷èñëî " << num;
-	if (!is) cout << " íå";
-	cout << " äåëèòñÿ íà " << pl << endl;
+	cout << "Ñ‡Ð¸ÑÐ»Ð¾ " << num;
+	if (!is) cout << " Ð½Ðµ";
+	cout << " Ð´ÐµÐ»Ð¸Ñ‚ÑÑ Ð½Ð° " << pl << endl;
 }
 
 int main()
