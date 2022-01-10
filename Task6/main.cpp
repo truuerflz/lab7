@@ -16,16 +16,16 @@ int main()
 {
     setlocale(LC_ALL, "rus");
 
-    cout << "ââåäèòå êîëè÷åñòâî íàáîðîâ:\n";
+    cout << "Ð²Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð½Ð°Ð±Ð¾Ñ€Ð¾Ð²:\n";
     int t = input();
 
     int* arr = new int[t];
-    cout << "\tââîä íàáîðîâ:\n";
+    cout << "\tÐ²Ð²Ð¾Ð´ Ð½Ð°Ð±Ð¾Ñ€Ð¾Ð²:\n";
     for (int i = 0; i < t; i++) {
         arr[i] = input();
     }
 
-    cout << "\nâûâîä:\n";
+    cout << "\nÐ²Ñ‹Ð²Ð¾Ð´:\n";
     for (int i = 0; i < t; i++) {
         if (arr[i] % 10 == 9) cout << arr[i] / 10 + 1 << endl;
         else cout << arr[i] / 10 << endl;
