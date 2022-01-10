@@ -75,7 +75,7 @@ char* menu(string num1, string num2)
 		x = len1;
 	}
 
-	cout << "ââåäèòå + èëè -(ñëîæåíèå\\âû÷èòàíèå):\n";
+	cout << "Ð²Ð²ÐµÐ´Ð¸Ñ‚Ðµ + Ð¸Ð»Ð¸ -(ÑÐ»Ð¾Ð¶ÐµÐ½Ð¸Ðµ\\Ð²Ñ‹Ñ‡Ð¸Ñ‚Ð°Ð½Ð¸Ðµ):\n";
 	char sign;
 	cin >> sign;
 
@@ -154,13 +154,13 @@ char* menu(string num1, string num2)
 int main()
 {
 	setlocale(LC_ALL, "rus");
-	cout << "\tÂâîä ïÿòíàäöàòåðè÷íûõ ÷èñåë:\n";
-	cout << "ââåäèòå 1-å ÷èñëî:\n";
+	cout << "\tÐ’Ð²Ð¾Ð´ Ð¿ÑÑ‚Ð½Ð°Ð´Ñ†Ð°Ñ‚ÐµÑ€Ð¸Ñ‡Ð½Ñ‹Ñ… Ñ‡Ð¸ÑÐµÐ»:\n";
+	cout << "Ð²Ð²ÐµÐ´Ð¸Ñ‚Ðµ 1-Ðµ Ñ‡Ð¸ÑÐ»Ð¾:\n";
 	string num1 = input();
-	cout << "ââåäèòå 2-å ÷èñëî:\n";
+	cout << "Ð²Ð²ÐµÐ´Ð¸Ñ‚Ðµ 2-Ðµ Ñ‡Ð¸ÑÐ»Ð¾:\n";
 	string num2 = input();
 	
-	cout << "\nâûâîä: " << menu(num1, num2);
+	cout << "\nÐ²Ñ‹Ð²Ð¾Ð´: " << menu(num1, num2);
 
 	return 0;
 }
